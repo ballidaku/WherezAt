@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/Wherezat_color">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_left_arrow_white"
+        android:drawablePadding="5dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="Back"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="About"
+        android:textColor="@color/Gray"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="WherezAt is a location sharing and tracking app."
+        android:textColor="@color/White"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="So now your always late friend can't lie to you about being on the way while still in bed. The location are updated on the map, as the  people travel. So, when he doesn't wanna share his location, you know something's not right. "
+        android:textColor="@color/White"
+        android:textSize="14sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="(Location's are tracked with user's consent)"
+        android:textColor="@color/White"
+        android:textSize="14sp"/>
+
+</LinearLayout>

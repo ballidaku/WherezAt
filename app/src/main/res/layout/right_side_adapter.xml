@@ -1,0 +1,79 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    >
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#393939"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Received Requests"
+        android:gravity="center"
+        android:background="#4f4f4f"
+        android:padding="10dp"
+        android:textColor="#ef5050"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/received_requests"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Active Tasks"
+        android:background="#4f4f4f"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#ef5050"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/active_tasks"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+        </LinearLayout>
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Sent Requests"
+        android:gravity="center"
+        android:background="#4f4f4f"
+        android:padding="10dp"
+        android:textColor="#ef5050"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/sent_requests"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

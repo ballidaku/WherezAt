@@ -1,0 +1,115 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greybackground"
+    android:gravity="center">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/greybackground"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp" >
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="230dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo" />
+
+
+            <EditText
+                android:id="@+id/edittext1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:hint="Username"
+                android:inputType="textCapWords"
+                android:singleLine="true"
+                android:textColor="@color/White" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+91"
+                    android:textSize="19sp"
+                    android:gravity="center"
+                    android:id="@+id/txtCountryCode"
+                    android:textStyle="bold"/>
+
+                <Spinner
+                    android:id="@+id/spn_country_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                   />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="-"
+                    android:textSize="19sp"
+                    android:gravity="center"/>
+
+            <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="@color/White"/>
+
+            </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/btn_verify"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:background="@drawable/notclicked"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="Continue"
+                android:textColor="@color/lightmaroon"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textv_terms_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:text="By clicking continue, you agree to our Terms and Conditions and Privacy Policy\n(Click here to view document)"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

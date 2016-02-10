@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/Wherezat_color"
+              android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/wherezat_logo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="bottom"
+                android:padding="5dp"
+                android:text="Developed with love at Ameba Softwares"
+                android:textSize="11sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="HOW TO USE"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/txtv_tutorial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ic_right_arrow_white"
+                android:padding="10dp"
+                android:text="Tutorial"
+                android:textColor="@color/White"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="ABOUT AND LEGAL"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/txtv_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ic_right_arrow_white"
+                android:padding="10dp"
+                android:text="About"
+                android:textColor="@color/White"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/txtv_legal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ic_right_arrow_white"
+                android:padding="10dp"
+                android:text="Legal"
+                android:textColor="@color/White"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="SUPPORT"
+                android:textColor="@color/Gray"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:id="@+id/txtv_contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/ic_right_arrow_white"
+                android:padding="10dp"
+                android:text="Contact Us"
+                android:textColor="@color/White"
+                android:textSize="14sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:text="Update interval"
+                android:textColor="@color/White"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="7dp">
+
+                <SeekBar
+                    android:id="@+id/seekBarUpdateRate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:max="10"/>
+
+                <TextView
+                    android:id="@+id/txtvUpdateRate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="5 min"
+                    android:textColor="@color/White"
+                    android:textSize="14sp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

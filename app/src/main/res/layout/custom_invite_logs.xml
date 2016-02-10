@@ -1,0 +1,93 @@
+<LinearLayout
+    android:id="@+id/fulllayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#534C42"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/Maroon"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="#ffffff"/>
+
+                <Button
+                    android:id="@+id/btn_revoke"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/noclickmaroon"
+                    android:text="Revoke"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnyes"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/noclickmaroon"
+                    android:text="Yes"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/btnno"
+                    android:layout_width="70dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/notclicked"
+                    android:text="No"
+                    android:textColor="#ffffff"
+                    android:visibility="gone"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

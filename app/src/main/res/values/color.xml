@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <item name="lightmaroon" type="color">#f24e4e</item>
+
+    <item name="White" type="color">#ffffff</item>
+    <item name="Gray" type="color">#979194</item>
+
+    <item name="Wherezat_color" type="color">#3c3c3c</item>
+    <item name="Maroon" type="color">#FF4B46</item>
+
+
+
+    <item name="greybackground" type="color">#393939</item>
+    <item name="lightgreybutton" type="color">#4d4d4d</item>
+
+
+
+
+
+
+
+</resources>
