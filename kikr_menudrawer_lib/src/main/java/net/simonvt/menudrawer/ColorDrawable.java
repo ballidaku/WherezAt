@@ -46,6 +46,7 @@ class ColorDrawable extends Drawable {
      *
      * @param color The color to draw.
      */
+
     public ColorDrawable(int color) {
         this(null);
         setColor(color);

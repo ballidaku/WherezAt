@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WherezAt.iml" filepath="$PROJECT_DIR$/WherezAt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kikr_menudrawer_lib/kikr_menudrawer_lib.iml" filepath="$PROJECT_DIR$/kikr_menudrawer_lib/kikr_menudrawer_lib.iml" />
+    </modules>
+  </component>
+</project>
